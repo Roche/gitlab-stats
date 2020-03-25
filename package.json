@@ -1,0 +1,40 @@
+{
+  "name": "gitlab-stats",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ./dist/cli.js",
+    "dev": "tsc --watch",
+    "prepublis": "npm run build"
+  },
+  "bin": {
+    "gitlab-stats": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roche/gitlab-stats.git"
+  },
+  "keywords": [
+    "gitlab"
+  ],
+  "author": "Livio Brunner <livio.brunner.lb1@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Roche/gitlab-stats/issues"
+  },
+  "homepage": "https://github.com/Roche/gitlab-stats#readme",
+  "dependencies": {
+    "@types/node": "^12.12.31",
+    "commander": "^5.0.0",
+    "date-fns": "^2.11.0",
+    "gitlab": "^14.2.2",
+    "json2csv": "^5.0.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/json2csv": "^4.5.1"
+  }
+}
