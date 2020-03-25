@@ -1,6 +1,12 @@
+<div align="center">
+
 # Gitlab Stats
 
 Gitlab Stats provides more [GitLab](https://gitlab.com/gitlab-org/gitlab/) statistics from the [GitLab API](https://gitlab.com/gitlab-org/gitlab/tree/master/doc/api) services. Gitlab Stats API is making use of the [gitlab](https://github.com/jdalrymple/gitbeaker#readme) NPM package is heavily inspired by its API.
+
+![Logo](logo.png)
+
+</div>
 
 ## Install
 
