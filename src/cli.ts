@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { GitlabStats } from './gitlab-stats';
 import { Gitlab } from 'gitlab';
 import { program } from 'commander';
